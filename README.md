@@ -17,7 +17,7 @@ Works best with ads blockers.
 
 | Before                                      | After                                      |
 | ------------------------------------------- | ------------------------------------------ |
-| ![Before](https://i.imgur.com/vmmJ4rA.png) | ![After](https://i.imgur.com/JhdA3v5.png) |
+| ![Before](https://i.imgur.com/vmmJ4rA.png) | ![After](https://i.imgur.com/d2jktJj.png) |
 
 > [!WARNING]
 > The style also hides the **Sign in / Create account** buttons and every **Edit** button. This script is made for normal users, not editors. If you need to log in or edit a page, just disable the style for a moment from the Stylus popup.
