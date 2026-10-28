@@ -1,14 +1,15 @@
+@-moz-document domain("fandom.com") {
     .page__right-rail,
     .right-rail-wrapper,
     .right-rail-toggle,
-    .global-explore-navigation, 
+    .global-explore-navigation,
     .page-side-tool.page-side-edit,
     .page-side-tool.page-side-save,
     .page-header__actions,
     #mw-data-after-content,
     .wiki-tools.wds-button-group,
     #community-navigation > div.community-navigation__action-wrapper,
-    #community-navigation > div.wiki-tools, 
+    #community-navigation > div.wiki-tools,
     #community-navigation > div.global-action__item,
     #global-top-navigation > div.global-top-navigation__action-wrapper,
     body > div.main-container > footer,
@@ -27,7 +28,6 @@
         margin-left: 0px !important;
     }
 
-
     .page.has-right-rail {
         column-gap: 0px !important;
     }
@@ -35,3 +35,4 @@
     .fandom-community-header__background.fullScreen {
         width: 100% !important;
     }
+}
