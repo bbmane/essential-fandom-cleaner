@@ -1,4 +1,18 @@
+/* ==UserStyle==
+@name           Essential Fandom Cleaner
+@namespace      github.com/bbmane
+@version        1.0.0
+@description    Removes sidebars, right rail, edit buttons, footer and other clutter from Fandom wikis and expands the article to full width.
+@author         bbmane
+@license        MIT
+@homepageURL    https://github.com/bbmane/essential-fandom-cleaner
+@supportURL     https://github.com/bbmane/essential-fandom-cleaner/issues
+@updateURL      https://raw.githubusercontent.com/bbmane/essential-fandom-cleaner/main/main.user.css
+==/UserStyle== */
+
 @-moz-document domain("fandom.com") {
+
+    /* Hide clutter: right rail, side navigation, edit/save tools, footer... */
     .page__right-rail,
     .right-rail-wrapper,
     .right-rail-toggle,
@@ -19,20 +33,25 @@
         display: none !important;
     }
 
+    /* Expand the main column to full width */
     .page__main {
         max-width: none !important;
         width: 100% !important;
     }
 
+    /* Remove the margin left by the global side navigation */
     body > div.main-container {
         margin-left: 0px !important;
     }
 
+    /* Remove the column gap left by the right rail */
     .page.has-right-rail {
         column-gap: 0px !important;
     }
 
+    /* Make the wiki header background span the whole width */
     .fandom-community-header__background.fullScreen {
         width: 100% !important;
     }
+
 }
